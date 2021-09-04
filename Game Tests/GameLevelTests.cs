@@ -1,4 +1,6 @@
 using System;
+using System.IO;
+using Engine_Base;
 using Game;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -13,6 +15,16 @@ namespace Game_Tests
         public void Setup()
         {
             _game = new Game.Game(new LevelStorage());
+        }
+
+        [TestMethod]
+        public void TestAddLevelByCheckingLevelCount()
+        {
+            var level = new Level();
+            _game.LevelStorage.AddLevel(level);
+            const int expectedLevelCount = 1;
+            var actualLevelCount = _game.LevelStorage.LevelCount();
+            Assert.AreEqual(expectedLevelCount, actualLevelCount);
         }
 
         [TestMethod]
@@ -93,6 +105,31 @@ namespace Game_Tests
             const int expectedLevelCount = 0;
             var actualLevelCount = _game.LevelStorage.LevelCount();
             Assert.AreEqual(expectedLevelCount, actualLevelCount);
+        }
+
+        [TestMethod]
+        public void TestSaveCurrentLevelByCheckingIfFileExists()
+        {
+            var levelData = new ListISquare
+            {
+                new Wall(new Position(0, 0)),
+                new Wall(new Position(1, 0)),
+                new Wall(new Position(2, 0)),
+                new Wall(new Position(0, 1)),
+                new Player(new Position(1, 1)),
+                new Wall(new Position(2, 1)),
+                new Wall(new Position(0, 2)),
+                new Goal(new Position(1, 2)),
+                new Wall(new Position(2, 2)),
+                new Wall(new Position(0, 3)),
+                new Wall(new Position(1, 3)),
+                new Wall(new Position(2, 3))
+            };
+            var level = new Level(2, 3, levelData);
+            const string fileName = "Example-Level";
+            _game.LevelStorage.SaveCurrentLevel(fileName);
+            var fileCheck = File.Exists($"{fileName}.xml");
+            Assert.IsTrue(fileCheck);
         }
     }
 }

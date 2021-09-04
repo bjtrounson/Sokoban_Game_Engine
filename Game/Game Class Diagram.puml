@@ -1,0 +1,116 @@
+@startuml
+!include https://raw.githubusercontent.com/future-architect/puml-themes/master/themes/puml-theme-toy.puml
+'https://plantuml.com/class-diagram
+IGame <|-- Game
+ISquare <|-- Goal
+ISquare <|-- Player
+ISquare <|-- Wall
+List <|- ListISquare
+XmlSerializer <|-- ListISquare
+ListISquare <|- ListLevelData
+ListISquare <|- ListStartingLevelData
+ISquare *- List
+LevelStorage *- Game
+ListLevelData *--- Level
+ListStartingLevelData *-- Level
+Level *- LevelStorage
+Position *-- ISquare
+
+interface IGame {
+    +Move(Direction moveDirection): void
+    +GetMoveCount(): int
+    +Undo(): void
+    +Restart(): void
+    +IsFinished(): bool
+    +Load(string newLevel): void
+}
+
+interface ISquare {
+    +Position: Position { get; set; }
+}
+
+enum Direction { 
+    Up
+    Down 
+    Left
+    Right 
+}
+
+class ListISquare {
+    +GetSchema(): XmlSchema
+    {abstract} ReadXml(XmlReader reader): void
+    +WriteXml(XmlWriter writer): void
+}
+
+class ListLevelData {
+    +ReadXml(XmlReader reader): void
+}
+
+class ListStartingLevelData {
+    +ReadXml(XmlReader reader): void
+}
+
+class Level {
+    +Width: int { get; }
+    +Height: int { get; }
+    +LevelData: ListLevelData { get; }
+    +StartingLevelData: ListStartingLevelData { get; }
+    +Completed: boolean { get; set; }
+    +Level(int weight, int height, List<ISquare> levelData): void
+    +GetGoalAtPos(int gridX, int gridY): Goal
+    +GetISquareAtIndex(int gridX, int gridY): ISquare
+    +GetPartAtIndex(int gridX, int gridY): Part
+    +GetTotalGoals(): int
+    +GetCompletedGoals(): boolean
+    +GetPlayer(): Player
+}
+
+class LevelStorage {
+    -_allLevels: List<Level>
+    +CurrentLevel: Level
+    +AddLevel(Level level): void
+    +LevelCount(): int
+    +SaveCurrentLevel(): void
+    +LoadLevel(string levelName): void
+    +CheckValid(): bool
+    
+}
+
+class Position {
+    +X: int { get; set; }
+    +Y: int { get; set; }
+    +Position(int x, int y): void
+}
+
+class Wall {
+    +Position: Position { get; set; }
+    +Wall(Position position): void
+}
+
+class Goal {
+    +Position: Position { get; set; }
+    +Completed: boolean { get; set; }
+    +Goal(Position position): void
+}
+
+class Player {
+    +Position: Position { get; set; }
+    +MoveCount: int { get; set; }
+    -_prevPosition: Position
+    +Player(Position playerPosition)
+}
+
+class Game {
+    +LevelStorage: LevelStorage { get; }
+    +Game(ILevel levelHandler): void
+    +Move(Direction moveDirection): void
+    -CheckMove(Position checkPosition): bool
+    +GetMoveCount(): int
+    +Undo(): void
+    +Restart(): void
+    +IsFinished(): bool
+    +Load(string newLevel): void
+}
+
+
+@enduml

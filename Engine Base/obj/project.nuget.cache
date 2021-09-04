@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ojrocb3sIXWws8G77qzMb44Tkx26gO4cukkzRolMlYmmf/Le6/lC71pGzy4M6PAK89gThgJSippKfsGTg6dF8g==",
+  "success": true,
+  "projectFilePath": "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj",
+  "expectedPackageFiles": [
+    "/home/bitcastle/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

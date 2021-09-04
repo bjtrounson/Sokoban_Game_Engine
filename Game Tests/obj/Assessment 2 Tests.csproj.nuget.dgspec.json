@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Tests/Assessment 2 Tests.csproj": {}
+  },
+  "projects": {
+    "/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Tests/Assessment 2 Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Tests/Assessment 2 Tests.csproj",
+        "projectName": "Assessment 2 Tests",
+        "projectPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Tests/Assessment 2 Tests.csproj",
+        "packagesPath": "/home/bitcastle/.nuget/packages/",
+        "outputPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/bitcastle/projects/BCDE222/Assessment 2/Game/Game.csproj": {
+                "projectPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Game/Game.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj",
+        "projectName": "Engine Base",
+        "projectPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj",
+        "packagesPath": "/home/bitcastle/.nuget/packages/",
+        "outputPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bitcastle/projects/BCDE222/Assessment 2/Game/Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Assessment 2/Game/Game.csproj",
+        "projectName": "Game",
+        "projectPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Game/Game.csproj",
+        "packagesPath": "/home/bitcastle/.nuget/packages/",
+        "outputPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj": {
+                "projectPath": "/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/Engine Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

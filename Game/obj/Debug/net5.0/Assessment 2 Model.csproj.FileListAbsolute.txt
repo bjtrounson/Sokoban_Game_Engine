@@ -1,0 +1,16 @@
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model.deps.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/ref/Assessment 2 Model.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/bin/Debug/net5.0/Assessment 2 Model.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/ref/Assessment 2 Model.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Assessment 2 Model/obj/Debug/net5.0/Assessment 2 Model.genruntimeconfig.cache

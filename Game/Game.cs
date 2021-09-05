@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using Engine_Base;
 
@@ -87,6 +88,8 @@ namespace Game
                     }
 
                     break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(moveDirection), moveDirection, null);
             }
         }
 

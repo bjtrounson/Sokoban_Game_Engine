@@ -18,7 +18,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestAddLevelByCheckingLevelCount()
+        public void AddLevel_SingleLevel_ReturnsNumberOne()
         {
             var level = new Level();
             _game.LevelStorage.AddLevel(level);
@@ -28,7 +28,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestGetLevelWidth()
+        public void CurrentLevelWidth_LoadLevel_ReturnsNumberTwo()
         {
             _game.Load("Level 1");
             const int expectedWidth = 2;
@@ -37,7 +37,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestGetLevelHeight()
+        public void CurrentLevelHeight_LoadLevel_ReturnsNumberThree()
         {
             _game.Load("Level 1");
             const int expectedHeight = 3;
@@ -46,7 +46,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestGetLevelCountWithOneLevel()
+        public void LevelCount_LoadLevel_ReturnsNumberOne()
         {
             _game.Load("Level 1");
             const int expectedLevelCount = 1;
@@ -55,7 +55,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestGetLevelCountWithTwoLevels()
+        public void LevelCount_LoadLevel_ReturnsNumberTwo()
         {
             _game.Load("Level 1");
             _game.Load("Level 2");
@@ -65,29 +65,27 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestRecentlyAddedLevelIsCurrentLevelByCheckingSize()
+        public void Load_CheckingLevelSize_ReturnsWidthTwoAndHeightThree()
         {
             _game.Load("Level 1");
             var expectedLevelSize = new[] {2, 3};
             var actualLevelSize = new[] {_game.LevelStorage.CurrentLevel.Width, _game.LevelStorage.CurrentLevel.Height};
-            Assert.AreEqual(expectedLevelSize[0], actualLevelSize[0]);
-            Assert.AreEqual(expectedLevelSize[1], actualLevelSize[1]);
+            CollectionAssert.AreEqual(expectedLevelSize, actualLevelSize);
         }
 
         [TestMethod]
-        public void TestSetLevelChangesCurrentLevelbyCheckingSize()
+        public void SetLevel_IndexNumber_ReturnsWidthTwoAndHeightThree()
         {
             _game.Load("Level 1");
             _game.Load("Level 2");
             _game.LevelStorage.SetLevel(0);
             var expectedLevelSize = new[] {2, 3};
             var actualLevelSize = new[] {_game.LevelStorage.CurrentLevel.Width, _game.LevelStorage.CurrentLevel.Height};
-            Assert.AreEqual(expectedLevelSize[0], actualLevelSize[0]);
-            Assert.AreEqual(expectedLevelSize[1], actualLevelSize[1]);
+            CollectionAssert.AreEqual(expectedLevelSize, actualLevelSize);
         }
 
         [TestMethod]
-        public void TestSetLevelThrowsExceptionIfNumberIsOutOfRange()
+        public void SetLevel_IndexNumberThatIsOutOfRange_ThrowsExceptionIndexOutOfRange()
         {
             _game.Load("Level 1");
             _game.Load("Level 2");
@@ -98,7 +96,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestRemoveLevelWithOneLevel()
+        public void RemoveLevel_IndexNumber_ReturnsZero()
         {
             _game.Load("Level 1");
             _game.LevelStorage.RemoveLevel(0);
@@ -108,7 +106,7 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void TestSaveCurrentLevelByCheckingIfFileExists()
+        public void SaveCurrentLevel_FileName_CheckFileExistsToBeTrue()
         {
             var levelData = new ListISquare
             {

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Width>4</Width>
+  <Height>5</Height>
+  <LevelData>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>1</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>2</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>3</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>1</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>2</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>1</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>2</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>2</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Player, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Player>
+        <MoveCount>0</MoveCount>
+        <PrevPositions>
+          <Position>
+            <X>2</X>
+            <Y>2</Y>
+          </Position>
+        </PrevPositions>
+        <Position>
+          <X>2</X>
+          <Y>2</Y>
+        </Position>
+      </Player>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>2</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>2</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>3</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>2</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>3</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>1</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>2</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>3</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+  </LevelData>
+  <StartingLevelData>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>1</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>2</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>3</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>0</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>1</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>2</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>1</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>1</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>2</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>2</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Player, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Player>
+        <MoveCount>0</MoveCount>
+        <PrevPositions>
+          <Position>
+            <X>2</X>
+            <Y>2</Y>
+          </Position>
+        </PrevPositions>
+        <Position>
+          <X>2</X>
+          <Y>2</Y>
+        </Position>
+      </Player>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>2</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>2</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>3</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>1</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>2</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Empty>
+        <Position>
+          <X>3</X>
+          <Y>3</Y>
+        </Position>
+      </Empty>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>3</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>0</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>1</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>2</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>3</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Wall>
+        <Position>
+          <X>4</X>
+          <Y>4</Y>
+        </Position>
+      </Wall>
+    </Square>
+  </StartingLevelData>
+  <Completed>false</Completed>
+</Level>

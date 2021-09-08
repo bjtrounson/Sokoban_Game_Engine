@@ -1,10 +1,7 @@
-using System;
 using System.Collections.Generic;
-using System.Runtime.Serialization;
 
 namespace Engine_Base
 {
-    [Serializable]
     public class Player : ISquare
     {
         public Player(Position playerPosition)
@@ -19,16 +16,9 @@ namespace Engine_Base
         }
 
         public int MoveCount { get; set; } = 0;
+        public Goal Goal { get; set; } = null;
         public List<Position> PrevPositions { get; set; }
         public Position Position { get; set; }
-        public Part SquarePart { get; }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Position", Position);
-            info.AddValue("SquarePart", SquarePart);
-            info.AddValue("MoveCount", MoveCount);
-            info.AddValue("PrevPositions", PrevPositions);
-        }
+        public Part SquarePart { get; set; }
     }
 }

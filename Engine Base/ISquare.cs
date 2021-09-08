@@ -1,8 +1,6 @@
-using System.Runtime.Serialization;
-
 namespace Engine_Base
 {
-    public interface ISquare : ISerializable
+    public interface ISquare
     {
         public Position Position { get; set; }
         public Part SquarePart { get; }

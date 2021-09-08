@@ -146,13 +146,13 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <Empty>
+    <Square AssemblyQualifiedName="Engine_Base.Block, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Block>
         <Position>
           <X>2</X>
           <Y>3</Y>
         </Position>
-      </Empty>
+      </Block>
     </Square>
     <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
@@ -355,13 +355,13 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <Empty>
+    <Square AssemblyQualifiedName="Engine_Base.Block, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Block>
         <Position>
           <X>2</X>
           <Y>3</Y>
         </Position>
-      </Empty>
+      </Block>
     </Square>
     <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>

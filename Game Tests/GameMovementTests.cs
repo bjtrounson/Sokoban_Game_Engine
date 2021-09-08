@@ -67,7 +67,7 @@ namespace Game_Tests
         {
             _game.Move(Direction.Up);
             const int expectedMoveCount = 1;
-            var actualMoveCount = _game.LevelStorage.CurrentLevel.GetPlayer().MoveCount;
+            var actualMoveCount = _game.GetMoveCount();
             Assert.AreEqual(expectedMoveCount, actualMoveCount);
         }
 
@@ -77,8 +77,31 @@ namespace Game_Tests
             _game.Move(Direction.Up);
             _game.Move(Direction.Right);
             const int expectedMoveCount = 2;
-            var actualMoveCount = _game.LevelStorage.CurrentLevel.GetPlayer().MoveCount;
+            var actualMoveCount = _game.GetMoveCount();
             Assert.AreEqual(expectedMoveCount, actualMoveCount);
+        }
+
+        [TestMethod]
+        public void Undo_PlayerMovement_PlayerPositionEqualsPreviousPosition()
+        {
+            _game.Move(Direction.Down);
+            _game.Undo();
+            var expectedPosition = new Position(2, 2);
+            var actualPosition = _game.LevelStorage.CurrentLevel.GetPlayer().Position;
+            Assert.AreEqual(expectedPosition, actualPosition);
+        }
+
+        [TestMethod]
+        public void Undo_PlayerMovement_PlayerPositionEqualsTwoMovesBeforePosition()
+        {
+            _game.Move(Direction.Down);
+            _game.Move(Direction.Right);
+            _game.Move(Direction.Up);
+            _game.Undo();
+            _game.Undo();
+            var expectedPosition = new Position(2, 3);
+            var actualPosition = _game.LevelStorage.CurrentLevel.GetPlayer().Position;
+            Assert.AreEqual(expectedPosition, actualPosition);
         }
     }
 }

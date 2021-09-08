@@ -15,7 +15,7 @@ namespace Game
                 new Empty(new Position(3, 1)), new Wall(new Position(4, 1)),
                 new Wall(new Position(0, 2)), new Empty(new Position(1, 2)), new Player(new Position(2, 2)),
                 new Empty(new Position(3, 2)), new Wall(new Position(4, 2)),
-                new Wall(new Position(0, 3)), new Empty(new Position(1, 3)), new Empty(new Position(2, 3)),
+                new Wall(new Position(0, 3)), new Empty(new Position(1, 3)), new Block(new Position(2, 3)),
                 new Empty(new Position(3, 3)), new Wall(new Position(4, 3)),
                 new Wall(new Position(0, 4)), new Wall(new Position(1, 4)), new Wall(new Position(2, 4)),
                 new Wall(new Position(3, 4)), new Wall(new Position(4, 4))

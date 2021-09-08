@@ -65,15 +65,6 @@ namespace Game_Tests
         }
 
         [TestMethod]
-        public void Load_CheckingLevelSize_ReturnsWidthTwoAndHeightThree()
-        {
-            _game.Load("Level 1");
-            var expectedLevelSize = new[] {2, 3};
-            var actualLevelSize = new[] {_game.LevelStorage.CurrentLevel.Width, _game.LevelStorage.CurrentLevel.Height};
-            CollectionAssert.AreEqual(expectedLevelSize, actualLevelSize);
-        }
-
-        [TestMethod]
         public void SetLevel_IndexNumber_ReturnsWidthTwoAndHeightThree()
         {
             _game.Load("Level 1");
@@ -128,6 +119,24 @@ namespace Game_Tests
             _game.LevelStorage.SaveCurrentLevel(fileName);
             var fileCheck = File.Exists($"{fileName}.xml");
             Assert.IsTrue(fileCheck);
+        }
+
+        [TestMethod]
+        public void GetGoalAtPosition_GridXGridY_ReturnsGoal()
+        {
+            _game.Load("Level 1");
+            var expectedType = typeof(Goal);
+            var actualType = _game.LevelStorage.CurrentLevel.GetGoalAtPosition(1, 2).GetType();
+            Assert.AreEqual(expectedType, actualType);
+        }
+
+        [TestMethod]
+        public void GetGoalAtPosition_GridXGridY_ReturnsNull()
+        {
+            _game.Load("Level 1");
+            Goal expectedType = null;
+            var actualType = _game.LevelStorage.CurrentLevel.GetGoalAtPosition(0, 0);
+            Assert.AreEqual(expectedType, actualType);
         }
     }
 }

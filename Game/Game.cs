@@ -20,8 +20,8 @@ namespace Game
         public void Move(Direction moveDirection)
         {
             var player = LevelStorage.CurrentLevel.GetPlayer();
-            ISquare squareAtPos;
-            Position newPos;
+            Position playerNewPos;
+            Position squareNewPos;
             switch (moveDirection)
             {
                 // Mental Note for future retard Ben that won't be able to mentally grasp what this aids switch statement is doing.
@@ -33,60 +33,24 @@ namespace Game
                 // If it is then check the block above to see if its not a wall.
                 // If that is also true then update the block (If there is one) and the player
                 case Direction.Up:
-                    newPos = new Position(player.Position.X, player.Position.Y - 1);
-                    squareAtPos = LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y);
-                    if (CheckMove(newPos))
-                    {
-                        if (squareAtPos.GetType() == typeof(Block))
-                            if (LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y - 1).GetType() !=
-                                typeof(Wall))
-                                squareAtPos.Position = new Position(newPos.X, newPos.Y - 1);
-                        player.Position = newPos;
-                        player.MoveCount++;
-                    }
-
+                    playerNewPos = new Position(player.Position.X, player.Position.Y - 1);
+                    squareNewPos = new Position(playerNewPos.X, playerNewPos.Y - 1);
+                    MovementAlgorithm(playerNewPos, squareNewPos, player);
                     break;
                 case Direction.Down:
-                    newPos = new Position(player.Position.X, player.Position.Y + 1);
-                    squareAtPos = LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y);
-                    if (CheckMove(newPos))
-                    {
-                        if (squareAtPos.GetType() == typeof(Block))
-                            if (LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y + 1).GetType() !=
-                                typeof(Wall))
-                                squareAtPos.Position = new Position(newPos.X, newPos.Y + 1);
-                        player.Position = newPos;
-                        player.MoveCount++;
-                    }
-
+                    playerNewPos = new Position(player.Position.X, player.Position.Y + 1);
+                    squareNewPos = new Position(playerNewPos.X, playerNewPos.Y + 1);
+                    MovementAlgorithm(playerNewPos, squareNewPos, player);
                     break;
                 case Direction.Left:
-                    newPos = new Position(player.Position.X - 1, player.Position.Y);
-                    squareAtPos = LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y);
-                    if (CheckMove(newPos))
-                    {
-                        if (squareAtPos.GetType() == typeof(Block))
-                            if (LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X - 1, newPos.Y).GetType() !=
-                                typeof(Wall))
-                                squareAtPos.Position = new Position(newPos.X - 1, newPos.Y);
-                        player.Position = newPos;
-                        player.MoveCount++;
-                    }
-
+                    playerNewPos = new Position(player.Position.X - 1, player.Position.Y);
+                    squareNewPos = new Position(playerNewPos.X - 1, playerNewPos.Y);
+                    MovementAlgorithm(playerNewPos, squareNewPos, player);
                     break;
                 case Direction.Right:
-                    newPos = new Position(player.Position.X + 1, player.Position.Y);
-                    squareAtPos = LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X, newPos.Y);
-                    if (CheckMove(newPos))
-                    {
-                        if (squareAtPos.GetType() == typeof(Block))
-                            if (LevelStorage.CurrentLevel.GetISquareAtIndex(newPos.X + 1, newPos.Y).GetType() !=
-                                typeof(Wall))
-                                squareAtPos.Position = new Position(newPos.X + 1, newPos.Y);
-                        player.Position = newPos;
-                        player.MoveCount++;
-                    }
-
+                    playerNewPos = new Position(player.Position.X + 1, player.Position.Y);
+                    squareNewPos = new Position(playerNewPos.X + 1, playerNewPos.Y);
+                    MovementAlgorithm(playerNewPos, squareNewPos, player);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(moveDirection), moveDirection, null);
@@ -128,7 +92,7 @@ namespace Game
         /// <returns>Returns a bool if the Level is completed or not.</returns>
         public bool IsFinished()
         {
-            return LevelStorage.CurrentLevel.Completed;
+            return LevelStorage.CurrentLevel.GetTotalGoals() == LevelStorage.CurrentLevel.GetCompletedGoals();
         }
 
         /// <summary>
@@ -153,11 +117,94 @@ namespace Game
         /// </summary>
         /// <param name="checkPosition">Position to check</param>
         /// <returns>Returns a bool if the Player can move or not.</returns>
-        private bool CheckMove(Position checkPosition)
+        private bool AllowMove(Position checkPosition)
         {
-            var squareAtPos = LevelStorage.CurrentLevel.GetISquareAtIndex(checkPosition.X, checkPosition.Y);
+            var squareAtPos = LevelStorage.CurrentLevel.GetISquareAtPosition(checkPosition.X, checkPosition.Y);
             return squareAtPos.GetType() == typeof(Empty) || squareAtPos.GetType() == typeof(Block) ||
                    squareAtPos.GetType() == typeof(Goal);
+        }
+
+        private void MovementAlgorithm(Position playerNewPos, Position squareNewPos, Player player)
+        {
+            var squareNextToPlayer = LevelStorage.CurrentLevel.GetISquareAtPosition(playerNewPos.X, playerNewPos.Y);
+            var squareNextToSquare = LevelStorage.CurrentLevel.GetISquareAtPosition(squareNewPos.X, squareNewPos.Y);
+            var playerIndex = LevelStorage.CurrentLevel.GetIndexForISquare(player);
+            var squareIndex = LevelStorage.CurrentLevel.GetIndexForISquare(squareNextToPlayer);
+            if (!AllowMove(playerNewPos)) return;
+            if (squareNextToPlayer.GetType() == typeof(Block))
+            {
+                if (squareNextToSquare.GetType() == typeof(Wall)) return;
+                var block = (Block) squareNextToPlayer;
+                var indexForNewBlock =
+                    LevelStorage.CurrentLevel.GetIndexForISquare(
+                        LevelStorage.CurrentLevel.GetISquareAtPosition(squareNewPos.X, squareNewPos.Y));
+                UpdatePlayerPlaceInLevel(player, playerIndex, squareIndex, playerNewPos);
+                if (squareNextToSquare.GetType() == typeof(Goal))
+                {
+                    block.SquarePart = Part.BlockOnGoal;
+                    block.Goal = (Goal) squareNextToSquare;
+                    block.Goal.Completed = true;
+                    UpdateBlockInLevel(block, squareNextToSquare, squareIndex, indexForNewBlock, squareNewPos, true);
+                }
+                else
+                {
+                    UpdateBlockInLevel(block, squareNextToSquare, squareIndex, indexForNewBlock, squareNewPos, false);
+                }
+            }
+            else
+            {
+                UpdatePlayerPlaceInLevel(player, playerIndex, squareIndex, playerNewPos);
+                if (squareNextToPlayer.GetType() != typeof(Goal)) return;
+                player.SquarePart = Part.PlayerOnGoal;
+                player.Goal = (Goal) squareNextToPlayer;
+            }
+        }
+
+        private void ChangeObjectAtIndex(ISquare square, int index)
+        {
+            LevelStorage.CurrentLevel.LevelData[index] = square;
+        }
+
+        private void UpdatePlayerPlaceInLevel(Player player, int playerIndex, int squareIndex, Position newPos)
+        {
+            if (player.Goal is not null)
+            {
+                ChangeObjectAtIndex(player.Goal, playerIndex);
+                player.Goal = null;
+                player.SquarePart = Part.Player;
+            }
+            else
+            {
+                ChangeObjectAtIndex(new Empty(player.Position), playerIndex);
+            }
+
+            player.PrevPositions.Add(player.Position);
+            player.Position = newPos;
+            player.MoveCount++;
+            ChangeObjectAtIndex(player, squareIndex);
+        }
+
+        private void UpdateBlockInLevel(Block block, ISquare squareNextToSquare, int squareIndex, int indexForNewBlock,
+            Position blockNewPos, bool addGoal)
+        {
+            if (addGoal)
+            {
+                block.SquarePart = Part.BlockOnGoal;
+                block.Goal = (Goal) squareNextToSquare;
+                block.Goal.Completed = true;
+            }
+            else
+            {
+                if (block.Goal is not null)
+                {
+                    block.Goal.Completed = false;
+                    LevelStorage.CurrentLevel.GetPlayer().Goal = block.Goal;
+                    block.Goal = null;
+                }
+            }
+
+            block.Position = blockNewPos;
+            ChangeObjectAtIndex(block, indexForNewBlock);
         }
     }
 }

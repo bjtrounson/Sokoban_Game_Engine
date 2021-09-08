@@ -1,9 +1,5 @@
-using System;
-using System.Runtime.Serialization;
-
 namespace Engine_Base
 {
-    [Serializable]
     public class Block : ISquare
     {
         public Block(Position blockPosition)
@@ -17,12 +13,7 @@ namespace Engine_Base
         }
 
         public Position Position { get; set; }
-        public Part SquarePart { get; }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Position", Position);
-            info.AddValue("SquarePart", SquarePart);
-        }
+        public Part SquarePart { get; set; }
+        public Goal Goal { get; set; } = null;
     }
 }

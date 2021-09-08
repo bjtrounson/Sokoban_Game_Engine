@@ -1,10 +1,6 @@
-using System;
-using System.Runtime.Serialization;
-
 namespace Engine_Base
 {
-    [Serializable]
-    public struct Position : ISerializable
+    public struct Position
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -13,12 +9,6 @@ namespace Engine_Base
         {
             X = x;
             Y = y;
-        }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("X", X);
-            info.AddValue("Y", Y);
         }
     }
 }

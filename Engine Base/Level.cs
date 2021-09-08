@@ -6,6 +6,11 @@ namespace Engine_Base
     [XmlRoot]
     public class Level : ILevel
     {
+        public int Width { get; set; }
+        public int Height { get; set; }
+        public ListLevelData LevelData { get; set; }
+        public ListStartingLevelData StartingLevelData { get; set; }
+
         /// <summary>
         ///     Creates a new level with width, height and LevelData.
         /// </summary>
@@ -41,19 +46,13 @@ namespace Engine_Base
         {
         }
 
-        public int Width { get; set; }
-        public int Height { get; set; }
-        public ListLevelData LevelData { get; set; }
-        public ListStartingLevelData StartingLevelData { get; set; }
-        public bool Completed { get; set; }
-
         /// <summary>
         ///     Gets a Goal object at a given X and Y axis.
         /// </summary>
         /// <param name="gridX"></param>
         /// <param name="gridY"></param>
         /// <returns>Returns a Goal</returns>
-        public Goal GetGoalAtIndex(int gridX, int gridY)
+        public Goal GetGoalAtPosition(int gridX, int gridY)
         {
             Goal goalAtPos = null;
             foreach (var square in LevelData.Where(square => square.GetType() == typeof(Goal))
@@ -67,7 +66,7 @@ namespace Engine_Base
         /// <param name="gridX"></param>
         /// <param name="gridY"></param>
         /// <returns>Returns a Part Enum</returns>
-        public Part GetPartAtIndex(int gridX, int gridY)
+        public Part GetPartAtPosition(int gridX, int gridY)
         {
             var squarePart = Part.Empty;
             foreach (var square in LevelData.Where(
@@ -81,11 +80,12 @@ namespace Engine_Base
         /// <param name="gridX"></param>
         /// <param name="gridY"></param>
         /// <returns>Returns a ISquare object</returns>
-        public ISquare GetISquareAtIndex(int gridX, int gridY)
+        public ISquare GetISquareAtPosition(int gridX, int gridY)
         {
             ISquare squareResult = null;
             foreach (var square in LevelData.Where(
-                square => (square.Position.X == gridX) & (square.Position.Y == gridY))) squareResult = square;
+                square => (square.Position.X == gridX) & (square.Position.Y == gridY)))
+                squareResult = square;
             return squareResult;
         }
 
@@ -95,7 +95,20 @@ namespace Engine_Base
         /// <returns>Returns a int of total goals</returns>
         public int GetTotalGoals()
         {
-            return LevelData.Count(square => square.GetType() == typeof(Goal));
+            var count = 0;
+            foreach (var square in LevelData.Where(square =>
+                square.GetType() == typeof(Goal) || square.GetType() == typeof(Block)))
+                if (square.GetType() == typeof(Goal))
+                {
+                    count++;
+                }
+                else
+                {
+                    var block = (Block) square;
+                    if (block.Goal != null) count++;
+                }
+
+            return count;
         }
 
 
@@ -105,8 +118,8 @@ namespace Engine_Base
         /// <returns>Returns a int of how many completed goals</returns>
         public int GetCompletedGoals()
         {
-            return (from square in LevelData where square.GetType() == typeof(Goal) select (Goal) square).Count(goal =>
-                goal.Completed);
+            return (from square in LevelData where square.GetType() == typeof(Block) select (Block) square).Count(
+                block => block.Goal is not null);
         }
 
         /// <summary>
@@ -119,6 +132,15 @@ namespace Engine_Base
             foreach (var square in LevelData.Where(square => square.GetType() == typeof(Player)))
                 player = (Player) square;
             return player;
+        }
+
+        public int GetIndexForISquare(ISquare square)
+        {
+            var index = 0;
+            foreach (var (obj, i) in LevelData.Select((value, i) => (value, i)))
+                if (obj == square)
+                    index = i;
+            return index;
         }
 
         private ListLevelData LevelDataConvertor(ListISquare levelData)

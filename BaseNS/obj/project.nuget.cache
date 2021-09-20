@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TYWlIFLtFIbk+O7VfSWHyW9Zb62PHJl9/CiUf7qGyvKfod1tD7Xl/qEvyxumFD9XoSX8iskFep8ecJOHWDZzJw==",
+  "success": true,
+  "projectFilePath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj",
+  "expectedPackageFiles": [
+    "/home/bitcastle/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

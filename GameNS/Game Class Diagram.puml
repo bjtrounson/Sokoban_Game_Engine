@@ -1,0 +1,183 @@
+@startuml
+skinparam classAttributeIconSize 0
+namespace BaseNS {
+    Position <.. ISquare
+    Part <.. ISquare
+    ListLevelData *--- GameNS.Level
+    ListStartingLevelData *-- GameNS.Level
+    
+    class ListISquare extends List
+    class ListISquare implements XmlSerializer
+    class Goal implements ISquare
+    class Player implements ISquare
+    class Wall implements ISquare
+    class Block implements ISquare
+    note left on link
+        Empty Constructors so that the XmlSerializer
+        behaves correctly and doesn't throw
+        a Parentless parameter constructor.
+    endnote
+    class Empty implements ISquare
+    
+    class ListLevelData extends ListISquare
+    class ListStartingLevelData extends ListISquare
+    
+    interface ISquare {
+        +Position : Position { get; set; }
+        +SquarePart : Part { get; set; } 
+    }
+    
+    enum Direction { 
+        Up
+        Down 
+        Left
+        Right 
+    }
+    
+    enum Part {
+        Wall
+        Empty
+        Player
+        Goal
+        Block
+        BlockOnGoal
+        PlayerOnGoal
+    }
+    
+    class Position {
+        +X : int { get; }
+        +Y : int { get; }
+        +Position(int x, int y) : void
+    }
+    
+    class Wall {
+        +Wall(Position position) : void
+        +Wall() : void
+        +Position : Position { get; set; }
+        
+    }
+    
+    class Goal {
+        +Goal(Position position) : void
+        +Goal() : void
+        +Position : Position { get; set; }
+        +SquarePart : Part { get; set; } 
+        +Completed : boolean { get; set; }
+        
+    }
+    
+    class Player {
+        +Player(Position playerPosition)
+        +Player() : void
+        +Position : Position { get; set; }
+        +SquarePart : Part { get; set; } 
+        +MoveCount : int { get; set; }
+        +Goal : Goal { get; set; }
+        +PrevPositions : List<Position> { get; }
+    }
+    
+    class Block {
+        +Block(Position blockPosition) : void
+        +Block() : void
+        +Position Position { get; set; }
+        +Part SquarePart { get; set; }
+        +Goal Goal { get; set; } = null;
+    }
+    
+    class Empty {
+        +Empty(Position position) : void
+        +Empty() : void
+        +Position : Position { get; set; }
+        +SquarePart : Part { get; set; } 
+    }
+    
+    class List<ISquare> {}
+    
+    class ListISquare {
+        +GetSchema() : XmlSchema
+        +WriteXml(XmlWriter writer) : void
+        +{abstract} ReadXml(XmlReader reader) : void
+    }
+    
+    note left of ListISquare::ReadXml
+        This method is a virtual method.
+    endnote
+    
+    class ListLevelData {
+        +ReadXml(XmlReader reader) : void
+    }
+    
+    class ListStartingLevelData {
+        +ReadXml(XmlReader reader) : void
+    }
+}
+
+namespace GameNS #DDDDDD {
+    IGame <|.. Game
+    LevelStorage *-- Game
+    Level *- LevelStorage
+    BaseNS.Direction <. Game
+    BaseNS.Position <. Game
+    BaseNS.ISquare <. Game
+    BaseNS.Block <. Game
+    BaseNS.Player <. Game
+    
+    interface IGame {
+        +Move(Direction moveDirection) : void
+        +GetMoveCount() : int
+        +Undo() : void
+        +Restart() : void
+        +IsFinished() : bool
+        +Load(string newLevel) : void
+    }
+    
+    class Level {
+        +Width : int { get; }
+        +Height : int { get; }
+        +LevelData : ListLevelData { get; }
+        +StartingLevelData : ListStartingLevelData { get; }
+        +Level(int weight, int height, ListISquare levelData) : void
+        +GetGoalAtPos(int gridX, int gridY) : Goal
+        +GetISquareAtIndex(int gridX, int gridY) : ISquare
+        +GetPartAtIndex(int gridX, int gridY) : Part
+        +GetTotalGoals() : int
+        +GetCompletedGoals() : boolean
+        +GetPlayer() : Player
+        -GetIndexForISquare(ISquare square) : int
+        -LevelDataConvertor(ListISquare levelData) : ListLevelData
+        -StartingLevelDataConvertor(ListISquare levelData)) : ListStartingLevelData
+    }
+    
+    class LevelStorage {
+        -_allLevels : List<Level>
+        +CurrentLevel : Level
+        +AddLevel(Level level) : void
+        +LevelCount() : int
+        +SaveCurrentLevel() : void
+        +LoadLevel(string levelName) : void
+        +CheckValid() : bool
+        
+    }
+    
+    class Game {
+        +LevelStorage : LevelStorage { get; }
+        +Game(ILevel levelHandler) : void
+        +Move(Direction moveDirection) : void
+        +GetMoveCount() : int
+        +Undo() : void
+        +Restart() : void
+        +IsFinished() : bool
+        +Load(string newLevel) : void
+        -AllowMove(Position checkPosition) : bool
+        -UpdateBlockInLevel(Block block, ISquare squareNextToSquare, int squareIndex, int indexForNewBlock, Position blockNewPos, bool addGoal) : void
+        -UpdatePlayerInLevel(Player player, int playerIndex, int squareIndex, Position newPos) : void
+        -ChangeObjectAtIndex(ISquare square, int index) : void
+        -MovementAlgorithm(Position playerNewPos, Position squareNewPos, Player player) : void
+    }
+}
+
+
+
+
+
+@enduml

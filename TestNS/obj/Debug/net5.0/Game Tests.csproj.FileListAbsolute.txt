@@ -1,0 +1,210 @@
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game.deps.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game Tests.deps.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game Tests.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game Tests.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ref/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game Tests.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/testhost.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/NuGet.Frameworks.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.csproj.CopyComplete
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/ref/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game Tests/obj/Debug/net5.0/Game Tests.genruntimeconfig.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game.deps.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game Tests.deps.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game Tests.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game Tests.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ref/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game Tests.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CoreUtilities.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.PlatformAbstractions.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CommunicationUtilities.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.CrossPlatEngine.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.TestPlatform.Utilities.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.Common.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/testhost.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/NuGet.Frameworks.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.csproj.CopyComplete
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/ref/Game Tests.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game Tests/obj/Debug/net5.0/Game Tests.genruntimeconfig.cache

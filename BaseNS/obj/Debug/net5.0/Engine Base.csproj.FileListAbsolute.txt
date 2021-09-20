@@ -1,0 +1,24 @@
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/bin/Debug/net5.0/Engine Base.deps.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/bin/Debug/net5.0/ref/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/ref/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Engine Base/obj/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/bin/Debug/net5.0/Engine Base.deps.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/bin/Debug/net5.0/ref/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/ref/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Engine Base/obj/Debug/net5.0/Engine Base.pdb

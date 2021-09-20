@@ -1,0 +1,38 @@
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game.deps.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/ref/Game.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.csproj.CopyComplete
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/ref/Game.dll
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Assessment 2/Game/obj/Debug/net5.0/Game.genruntimeconfig.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game.deps.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game.runtimeconfig.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game.runtimeconfig.dev.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/ref/Game.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Engine Base.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/bin/Debug/net5.0/Engine Base.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.csproj.CopyComplete
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/ref/Game.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/Game/obj/Debug/net5.0/Game.genruntimeconfig.cache

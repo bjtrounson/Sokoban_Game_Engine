@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "BaseNS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BaseNS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseNS.dll": {}
+        }
+      },
+      "FilerNS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BaseNS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FilerNS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FilerNS.dll": {}
+        }
+      },
+      "GameNS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BaseNS": "1.0.0",
+          "FilerNS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameNS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameNS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaseNS/1.0.0": {
+      "type": "project",
+      "path": "../BaseNS/BaseNS.csproj",
+      "msbuildProject": "../BaseNS/BaseNS.csproj"
+    },
+    "FilerNS/1.0.0": {
+      "type": "project",
+      "path": "../FilerNS/FilerNS.csproj",
+      "msbuildProject": "../FilerNS/FilerNS.csproj"
+    },
+    "GameNS/1.0.0": {
+      "type": "project",
+      "path": "../GameNS/GameNS.csproj",
+      "msbuildProject": "../GameNS/GameNS.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "GameNS >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bjt0255\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj",
+      "projectName": "WinFormNS",
+      "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj",
+      "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj": {
+              "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

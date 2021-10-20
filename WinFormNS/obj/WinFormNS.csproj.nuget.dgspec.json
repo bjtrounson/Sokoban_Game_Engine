@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj",
+        "projectName": "BaseNS",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj",
+        "projectName": "FilerNS",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj",
+        "projectName": "GameNS",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj"
+              },
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj",
+        "projectName": "WinFormNS",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\WinFormNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\WinFormNS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

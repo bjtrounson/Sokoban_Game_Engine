@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/GameNS/GameNS.csproj": {}
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj": {}
   },
   "projects": {
-    "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj": {
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj",
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj",
         "projectName": "BaseNS",
-        "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj",
-        "packagesPath": "/home/bitcastle/.nuget/packages/",
-        "outputPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,45 +49,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj": {
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj",
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj",
         "projectName": "FilerNS",
-        "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj",
-        "packagesPath": "/home/bitcastle/.nuget/packages/",
-        "outputPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/obj/",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj": {
-                "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj"
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj"
               }
             }
           }
@@ -109,48 +107,44 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/GameNS/GameNS.csproj": {
+    "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/GameNS/GameNS.csproj",
+        "projectUniqueName": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj",
         "projectName": "GameNS",
-        "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/GameNS/GameNS.csproj",
-        "packagesPath": "/home/bitcastle/.nuget/packages/",
-        "outputPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/GameNS/obj/",
+        "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\GameNS.csproj",
+        "packagesPath": "C:\\Users\\bjt0255\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\GameNS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/bitcastle/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\bjt0255\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj": {
-                "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj"
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\BaseNS\\BaseNS.csproj"
               },
-              "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj": {
-                "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj"
+              "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj": {
+                "projectPath": "C:\\Users\\bjt0255\\Source\\Repos\\Sokoban_Game_Engine\\FilerNS\\FilerNS.csproj"
               }
             }
           }
@@ -174,18 +168,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,12 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameNS", "GameNS\GameNS.csproj", "{2AC7AE4B-86CD-4CB4-B7E2-D7D8BC0FA87A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameNS", "GameNS\GameNS.csproj", "{2AC7AE4B-86CD-4CB4-B7E2-D7D8BC0FA87A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNS", "TestNS\TestNS.csproj", "{53728FD1-A351-40F9-9095-D3B234B042FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNS", "TestNS\TestNS.csproj", "{53728FD1-A351-40F9-9095-D3B234B042FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseNS", "BaseNS\BaseNS.csproj", "{A0DFDB45-FED6-484D-9865-4D3A143852D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseNS", "BaseNS\BaseNS.csproj", "{A0DFDB45-FED6-484D-9865-4D3A143852D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilerNS", "FilerNS\FilerNS.csproj", "{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilerNS", "FilerNS\FilerNS.csproj", "{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormNS", "WinFormNS\WinFormNS.csproj", "{4C085BFA-45B0-417D-91EA-9B709E242D13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2AC7AE4B-86CD-4CB4-B7E2-D7D8BC0FA87A} = {2AC7AE4B-86CD-4CB4-B7E2-D7D8BC0FA87A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +38,15 @@ Global
 		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C085BFA-45B0-417D-91EA-9B709E242D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C085BFA-45B0-417D-91EA-9B709E242D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C085BFA-45B0-417D-91EA-9B709E242D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C085BFA-45B0-417D-91EA-9B709E242D13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {868FC0D0-1AD0-45E9-ACED-672BAA0A3D57}
 	EndGlobalSection
 EndGlobal

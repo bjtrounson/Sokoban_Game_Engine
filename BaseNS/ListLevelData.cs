@@ -18,7 +18,6 @@ namespace BaseNS
                 Add((ISquare) serial.Deserialize(reader));
                 reader.ReadEndElement();
             }
-
             reader.ReadEndElement();
         }
     }

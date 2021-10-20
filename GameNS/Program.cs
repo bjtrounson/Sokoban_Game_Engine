@@ -1,5 +1,6 @@
 ﻿using System;
 using BaseNS;
+using FilerNS;
 
 namespace GameNS
 {
@@ -20,12 +21,15 @@ namespace GameNS
                 new Wall(new Position(0, 4)), new Wall(new Position(1, 4)), new Wall(new Position(2, 4)),
                 new Wall(new Position(3, 4)), new Wall(new Position(4, 4))
             };
-            var level = new Level(4, 5, levelOneData);
+            /*var level = new Level();
+            level.CreateLevel(4, 5, levelOneData);
             var levelStorage = new LevelStorage();
             var game = new Game(levelStorage);
             game.LevelStorage.AddLevel(level);
             game.LevelStorage.SaveCurrentLevel("Player-Movement-Test");
-            Console.WriteLine(game.LevelStorage.CurrentLevel.GetPlayer().Position);
+            Console.WriteLine(game.LevelStorage.CurrentLevel.GetPlayer().Position);*/
+            var loader = new Loader();
+            Console.WriteLine(loader.Load("Level-1"));
             /*var levelData = new ListISquare
             {
                 new Wall(new Position(0, 0)),

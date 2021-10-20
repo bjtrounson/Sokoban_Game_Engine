@@ -9,12 +9,12 @@ namespace TestNS
     [TestClass]
     public class GameLevelTests
     {
-        private GameNS.Game _game;
+        private Game _game;
 
         [TestInitialize]
         public void Setup()
         {
-            _game = new GameNS.Game(new LevelStorage());
+            _game = new Game(new LevelStorage());
         }
 
         [TestMethod]
@@ -114,7 +114,8 @@ namespace TestNS
                 new Wall(new Position(1, 3)),
                 new Wall(new Position(2, 3))
             };
-            var level = new Level(2, 3, levelData);
+            var level = new Level();
+            level.CreateLevel(2, 3, levelData);
             const string fileName = "Example-Level";
             _game.LevelStorage.SaveCurrentLevel(fileName);
             var fileCheck = File.Exists($"{fileName}.xml");
@@ -138,5 +139,24 @@ namespace TestNS
             var actualType = _game.LevelStorage.CurrentLevel.GetGoalAtPosition(0, 0);
             Assert.AreEqual(expectedType, actualType);
         }
+
+        [TestMethod]
+        public void GetTotalGoals_GoalsInLevel_ReturnsOne()
+        {
+            _game.Load("Level 2");
+            const int expectedCount = 1;
+            var actualCount = _game.LevelStorage.CurrentLevel.GetTotalGoals();
+            Assert.AreEqual(expectedCount, actualCount);
+        }
+
+        [TestMethod]
+        public void GetCompletedGoals_GoalsCompleted_ReturnsZero()
+        {
+            _game.Load("Level 2");
+            const int expectedCount = 0;
+            var actualCount = _game.LevelStorage.CurrentLevel.GetCompletedGoals();
+            Assert.AreEqual(expectedCount, actualCount);
+        }
+
     }
 }

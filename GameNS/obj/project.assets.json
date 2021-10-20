@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/BaseNS.dll": {}
         }
+      },
+      "FilerNS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BaseNS": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FilerNS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FilerNS.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../BaseNS/BaseNS.csproj",
       "msbuildProject": "../BaseNS/BaseNS.csproj"
+    },
+    "FilerNS/1.0.0": {
+      "type": "project",
+      "path": "../FilerNS/FilerNS.csproj",
+      "msbuildProject": "../FilerNS/FilerNS.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BaseNS >= 1.0.0"
+      "BaseNS >= 1.0.0",
+      "FilerNS >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,6 +72,9 @@
           "projectReferences": {
             "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj": {
               "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/BaseNS.csproj"
+            },
+            "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj": {
+              "projectPath": "/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/FilerNS/FilerNS.csproj"
             }
           }
         }

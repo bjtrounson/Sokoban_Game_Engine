@@ -1,0 +1,15 @@
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/BaseNS.deps.json
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/BaseNS.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/ref/BaseNS.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/BaseNS.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.csprojAssemblyReference.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.GeneratedMSBuildEditorConfig.editorconfig
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.AssemblyInfoInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.AssemblyInfo.cs
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.csproj.CoreCompileInputs.cache
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/ref/BaseNS.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/FilerNS.dll
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/bin/Debug/net5.0/FilerNS.pdb
+/home/bitcastle/projects/BCDE222/Sokoban_Game_Engine/BaseNS/obj/Debug/net5.0/BaseNS.csproj.CopyComplete

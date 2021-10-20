@@ -3,7 +3,7 @@
   <Width>2</Width>
   <Height>3</Height>
   <LevelData>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -11,7 +11,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -19,7 +19,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -27,7 +27,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -35,7 +35,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Player, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Player, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Player>
         <Position>
           <X>1</X>
@@ -50,7 +50,7 @@
         </PrevPositions>
       </Player>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -58,7 +58,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -66,7 +66,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Goal, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Goal, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Goal>
         <Position>
           <X>1</X>
@@ -75,7 +75,7 @@
         <Completed>false</Completed>
       </Goal>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -83,7 +83,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -91,7 +91,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -99,7 +99,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -109,7 +109,7 @@
     </Square>
   </LevelData>
   <StartingLevelData>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -117,7 +117,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -125,7 +125,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -133,7 +133,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -141,7 +141,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Player, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Player, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Player>
         <Position>
           <X>1</X>
@@ -156,7 +156,7 @@
         </PrevPositions>
       </Player>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -164,7 +164,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -172,7 +172,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Goal, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Goal, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Goal>
         <Position>
           <X>1</X>
@@ -181,7 +181,7 @@
         <Completed>false</Completed>
       </Goal>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -189,7 +189,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -197,7 +197,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -205,7 +205,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Assessment_2.Wall, Assessment 2 Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>

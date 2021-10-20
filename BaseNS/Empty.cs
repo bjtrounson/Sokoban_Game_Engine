@@ -5,7 +5,6 @@ namespace BaseNS
         public Empty(Position emptyPosition)
         {
             Position = emptyPosition;
-            SquarePart = Part.Empty;
         }
 
         public Empty()
@@ -13,6 +12,6 @@ namespace BaseNS
         }
 
         public Position Position { get; set; }
-        public Part SquarePart { get; }
+        public Part SquarePart { get; set; } = Part.Empty;
     }
 }

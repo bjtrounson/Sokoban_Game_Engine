@@ -8,7 +8,14 @@ namespace BaseNS
         {
             Position = playerPosition;
             PrevPositions = new List<Position> {playerPosition};
-            SquarePart = Part.Player;
+        }
+
+        public Player(Position playerPosition, Goal playerGoal)
+        {
+            Position = playerPosition;
+            PrevPositions = new List<Position> {playerPosition};
+            SquarePart = Part.PlayerOnGoal;
+            Goal = playerGoal;
         }
 
         public Player()
@@ -17,8 +24,8 @@ namespace BaseNS
 
         public int MoveCount { get; set; } = 0;
         public Goal Goal { get; set; } = null;
-        public List<Position> PrevPositions { get; }
+        public List<Position> PrevPositions { get; set; }
         public Position Position { get; set; }
-        public Part SquarePart { get; set; }
+        public Part SquarePart { get; set; } = Part.Player;
     }
 }

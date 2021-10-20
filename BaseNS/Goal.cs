@@ -2,9 +2,15 @@ namespace BaseNS
 {
     public class Goal : ISquare
     {
-        public Goal(Position position)
+        public Goal(Position goalPosition)
         {
-            Position = position;
+            Position = goalPosition;
+        }
+
+        public Goal(Position goalPosition, bool completed)
+        {
+            Position = goalPosition;
+            Completed = completed;
         }
 
         public Goal()
@@ -13,6 +19,6 @@ namespace BaseNS
 
         public bool Completed { get; set; } = false;
         public Position Position { get; set; }
-        public Part SquarePart { get; } = Part.Goal;
+        public Part SquarePart { get; set; } = Part.Goal;
     }
 }

@@ -7,7 +7,7 @@ namespace TestNS
     [TestClass]
     public class GamePlayerMovementTests
     {
-        private GameNS.Game _game;
+        private Game _game;
 
         [TestInitialize]
         public void Setup()
@@ -25,8 +25,10 @@ namespace TestNS
                 new Wall(new Position(0, 4)), new Wall(new Position(1, 4)), new Wall(new Position(2, 4)),
                 new Wall(new Position(3, 4)), new Wall(new Position(4, 4))
             };
-            _game = new GameNS.Game(new LevelStorage());
-            _game.LevelStorage.AddLevel(new Level(4, 4, levelData));
+            _game = new Game(new LevelStorage());
+            var level = new Level();
+            level.CreateLevel(4, 4, levelData);
+            _game.LevelStorage.AddLevel(level);
         }
 
         [TestMethod]

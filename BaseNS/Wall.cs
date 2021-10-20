@@ -2,10 +2,9 @@ namespace BaseNS
 {
     public class Wall : ISquare
     {
-        public Wall(Position position)
+        public Wall(Position wallPosition)
         {
-            Position = position;
-            SquarePart = Part.Wall;
+            Position = wallPosition;
         }
 
         public Wall()
@@ -13,6 +12,6 @@ namespace BaseNS
         }
 
         public Position Position { get; set; }
-        public Part SquarePart { get; }
+        public Part SquarePart { get; set; } = Part.Wall;
     }
 }

@@ -3,7 +3,7 @@
   <Width>4</Width>
   <Height>5</Height>
   <LevelData>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -11,7 +11,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -19,7 +19,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -27,7 +27,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>3</X>
@@ -35,7 +35,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -43,7 +43,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -51,7 +51,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -59,7 +59,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>2</X>
@@ -67,7 +67,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -75,7 +75,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -83,7 +83,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -91,7 +91,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -99,7 +99,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Player, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Player, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Player>
         <MoveCount>0</MoveCount>
         <PrevPositions>
@@ -112,9 +112,10 @@
           <X>2</X>
           <Y>2</Y>
         </Position>
+        <SquarePart>Player</SquarePart>
       </Player>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -122,7 +123,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -130,7 +131,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -138,7 +139,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -146,15 +147,16 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Block, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Block, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Block>
         <Position>
           <X>2</X>
           <Y>3</Y>
         </Position>
+        <SquarePart>Block</SquarePart>
       </Block>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -162,7 +164,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -170,7 +172,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -178,7 +180,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -186,7 +188,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -194,7 +196,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>3</X>
@@ -202,7 +204,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -212,7 +214,7 @@
     </Square>
   </LevelData>
   <StartingLevelData>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -220,7 +222,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -228,7 +230,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -236,7 +238,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>3</X>
@@ -244,7 +246,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -252,7 +254,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -260,7 +262,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -268,7 +270,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>2</X>
@@ -276,7 +278,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -284,7 +286,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -292,7 +294,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -300,7 +302,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -308,7 +310,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Player, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Player, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Player>
         <MoveCount>0</MoveCount>
         <PrevPositions>
@@ -321,9 +323,10 @@
           <X>2</X>
           <Y>2</Y>
         </Position>
+        <SquarePart>Player</SquarePart>
       </Player>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -331,7 +334,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -339,7 +342,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -347,7 +350,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>1</X>
@@ -355,15 +358,16 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Block, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Block, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Block>
         <Position>
           <X>2</X>
           <Y>3</Y>
         </Position>
+        <SquarePart>Block</SquarePart>
       </Block>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Empty, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Empty, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Empty>
         <Position>
           <X>3</X>
@@ -371,7 +375,7 @@
         </Position>
       </Empty>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -379,7 +383,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>0</X>
@@ -387,7 +391,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>1</X>
@@ -395,7 +399,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>2</X>
@@ -403,7 +407,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>3</X>
@@ -411,7 +415,7 @@
         </Position>
       </Wall>
     </Square>
-    <Square AssemblyQualifiedName="Engine_Base.Wall, Engine Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Square AssemblyQualifiedName="BaseNS.Wall, BaseNS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Wall>
         <Position>
           <X>4</X>
@@ -420,5 +424,4 @@
       </Wall>
     </Square>
   </StartingLevelData>
-  <Completed>false</Completed>
 </Level>

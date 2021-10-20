@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Xml.Serialization;
 using BaseNS;
+using FilerNS;
 
 namespace GameNS
 {
@@ -57,10 +56,8 @@ namespace GameNS
         /// <param name="fileName">File name to be saved as.</param>
         public void SaveCurrentLevel(string fileName)
         {
-            fileName = $"{fileName}.xml";
-            var xmlSerializer = new XmlSerializer(typeof(Level));
-            using TextWriter tw = new StreamWriter(fileName);
-            xmlSerializer.Serialize(tw, CurrentLevel);
+            var saver = new Saver(CurrentLevel);
+            saver.Save(fileName, new Fileable(CurrentLevel));
         }
 
         /// <summary>
@@ -69,12 +66,11 @@ namespace GameNS
         /// <param name="fileName">file name of the level to load</param>
         public void LoadLevel(string fileName)
         {
-            fileName = $"{fileName}.xml";
-            var deserializer = new XmlSerializer(typeof(Level));
-            TextReader reader = new StreamReader(fileName);
-            var level = deserializer.Deserialize(reader);
-            _allLevels.Add((Level) level);
-            CurrentLevel = (Level) level;
+            var loader = new Loader();
+            loader.Load(fileName);
+            var level = loader.Level;
+            _allLevels.Add(level);
+            CurrentLevel = level;
         }
     }
 }

@@ -60,7 +60,9 @@ namespace TestNS
                 new Wall(new Position(0, 4)), new Wall(new Position(1, 4)), new Wall(new Position(2, 4)),
                 new Wall(new Position(3, 4)), new Wall(new Position(4, 4))
             };
-            _game.LevelStorage.AddLevel(new Level(4, 4, levelData));
+            var level = new Level();
+            level.CreateLevel(4, 4, levelData);
+            _game.LevelStorage.AddLevel(level);
             _game.Move(Direction.Left);
             _game.Move(Direction.Down);
             _game.Move(Direction.Right);

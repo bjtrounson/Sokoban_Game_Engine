@@ -1,10 +1,11 @@
-@startuml
+ @startuml
 skinparam classAttributeIconSize 0
+skinparam groupInheritance 1
 namespace BaseNS {
     Position <.. ISquare
     Part <.. ISquare
-    ListLevelData *--- GameNS.Level
-    ListStartingLevelData *-- GameNS.Level
+    ListLevelData *--- Level
+    ListStartingLevelData *-- Level
     
     class ListISquare extends List
     class ListISquare implements XmlSerializer
@@ -18,13 +19,29 @@ namespace BaseNS {
         a Parentless parameter constructor.
     endnote
     class Empty implements ISquare
-    
+    class Level implements ILevel
     class ListLevelData extends ListISquare
     class ListStartingLevelData extends ListISquare
     
+    interface ILevel {
+        CreateLevel(int width, int height) : void
+        GetLevelWidth() : int
+        GetLevelHeight() : int
+        AddBlock(int gridX, int gridY) : void
+        AddPlayer(int gridX, int gridY) : void
+        AddWall(int gridX, int gridY) : void
+        AddGoal(int gridX, int gridY) : void
+        AddEmpty(int gridX, int gridY) : void
+        AddBlockOnGoal(int gridX, int gridY) : void
+        AddPlayerOnGoal(int gridX, int gridY) : void
+        GetPartAtIndex(int gridX, int gridY) : Part
+        SaveMe() : void
+        CheckValid() : bool
+    }
+    
     interface ISquare {
-        +Position : Position { get; set; }
-        +SquarePart : Part { get; set; } 
+        Position : Position { get; set; }
+        SquarePart : Part { get; set; } 
     }
     
     enum Direction { 
@@ -110,12 +127,40 @@ namespace BaseNS {
     class ListStartingLevelData {
         +ReadXml(XmlReader reader) : void
     }
+    
+    class Level {
+        +Width : int { get; }
+        +Height : int { get; }
+        +LevelData : ListLevelData { get; }
+        +StartingLevelData : ListStartingLevelData { get; }
+        +CreateLevel(int width, int height) : void
+        +GetLevelWidth() : int
+        +GetLevelHeight() : int
+        +AddBlock(int gridX, int gridY) : void
+        +AddPlayer(int gridX, int gridY) : void
+        +AddWall(int gridX, int gridY) : void
+        +AddGoal(int gridX, int gridY) : void
+        +AddEmpty(int gridX, int gridY) : void
+        +AddBlockOnGoal(int gridX, int gridY) : void
+        +AddPlayerOnGoal(int gridX, int gridY) : void
+        +GetPartAtIndex(int gridX, int gridY) : Part
+        +GetGoalAtPos(int gridX, int gridY) : Goal
+        +GetISquareAtIndex(int gridX, int gridY) : ISquare
+        +GetTotalGoals() : int
+        +GetCompletedGoals() : boolean
+        +GetPlayer() : Player
+        +SaveMe() : void
+        +CheckValid() : bool
+        -GetIndexForISquare(ISquare square) : int
+        -LevelDataConvertor(ListISquare levelData) : ListLevelData
+        -StartingLevelDataConvertor(ListISquare levelData)) : ListStartingLevelData
+    }
 }
 
 namespace GameNS #DDDDDD {
     IGame <|.. Game
     LevelStorage *-- Game
-    Level *- LevelStorage
+    BaseNS.Level *- LevelStorage
     BaseNS.Direction <. Game
     BaseNS.Position <. Game
     BaseNS.ISquare <. Game
@@ -129,23 +174,6 @@ namespace GameNS #DDDDDD {
         +Restart() : void
         +IsFinished() : bool
         +Load(string newLevel) : void
-    }
-    
-    class Level {
-        +Width : int { get; }
-        +Height : int { get; }
-        +LevelData : ListLevelData { get; }
-        +StartingLevelData : ListStartingLevelData { get; }
-        +Level(int weight, int height, ListISquare levelData) : void
-        +GetGoalAtPos(int gridX, int gridY) : Goal
-        +GetISquareAtIndex(int gridX, int gridY) : ISquare
-        +GetPartAtIndex(int gridX, int gridY) : Part
-        +GetTotalGoals() : int
-        +GetCompletedGoals() : boolean
-        +GetPlayer() : Player
-        -GetIndexForISquare(ISquare square) : int
-        -LevelDataConvertor(ListISquare levelData) : ListLevelData
-        -StartingLevelDataConvertor(ListISquare levelData)) : ListStartingLevelData
     }
     
     class LevelStorage {
@@ -175,9 +203,4 @@ namespace GameNS #DDDDDD {
         -MovementAlgorithm(Position playerNewPos, Position squareNewPos, Player player) : void
     }
 }
-
-
-
-
-
 @enduml

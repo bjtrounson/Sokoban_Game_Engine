@@ -2,7 +2,7 @@ namespace BaseNS
 {
     public interface ISquare
     {
-        public Position Position { get; }
-        public Part SquarePart { get; }
+        Position Position { get; set; }
+        Part SquarePart { get; set; }
     }
 }

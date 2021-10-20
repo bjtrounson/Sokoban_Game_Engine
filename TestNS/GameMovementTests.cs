@@ -7,12 +7,12 @@ namespace TestNS
     [TestClass]
     public class GameMovementTests
     {
-        private GameNS.Game _game;
+        private Game _game;
 
         [TestInitialize]
         public void Setup()
         {
-            _game = new GameNS.Game(new LevelStorage());
+            _game = new Game(new LevelStorage());
             _game.LevelStorage.LoadLevel("Player-Movement-Test");
         }
 

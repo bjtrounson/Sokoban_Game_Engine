@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNS", "TestNS\TestNS.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseNS", "BaseNS\BaseNS.csproj", "{A0DFDB45-FED6-484D-9865-4D3A143852D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilerNS", "FilerNS\FilerNS.csproj", "{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A0DFDB45-FED6-484D-9865-4D3A143852D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0DFDB45-FED6-484D-9865-4D3A143852D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0DFDB45-FED6-484D-9865-4D3A143852D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED27D90-A284-4CF8-BC7B-2D02766F6F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -19,6 +19,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\BaseNS\BaseNS.csproj" />
+        <ProjectReference Include="..\FilerNS\FilerNS.csproj" />
     </ItemGroup>
 
 </Project>

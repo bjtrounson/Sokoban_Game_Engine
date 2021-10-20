@@ -2,12 +2,12 @@ namespace BaseNS
 {
     public enum Part
     {
-        Wall = '#',
-        Empty = '-',
-        Player = '@',
-        Goal = '.',
-        Block = '$',
-        BlockOnGoal = '*',
-        PlayerOnGoal = '+'
+        Wall = (int)'#',
+        Empty = (int)'-',
+        Player = (int)'@',
+        Goal = (int)'.',
+        Block = (int)'$',
+        BlockOnGoal = (int)'*',
+        PlayerOnGoal = (int)'+'
     }
 }

@@ -24,14 +24,6 @@ namespace GameNS
             Position squareNewPos;
             switch (moveDirection)
             {
-                // Mental Note for future retard Ben that won't be able to mentally grasp what this aids switch statement is doing.
-                // Also if I have left this here and handed in the assessment like this be mind the abuse I call myself above lol.
-                // So for example with going the new Position of the player is going to be it current Position with a offset of -1 on its Y axis.
-                // We will grab the square that is at the position to check later on.
-                // We will check weather its okay to move to the position using are check method. e.g. Checks weather there is not a wall there.
-                // If there is no wall, We will check if the square if a block.
-                // If it is then check the block above to see if its not a wall.
-                // If that is also true then update the block (If there is one) and the player
                 case Direction.Up:
                     playerNewPos = new Position(player.Position.X, player.Position.Y - 1);
                     squareNewPos = new Position(playerNewPos.X, playerNewPos.Y - 1);

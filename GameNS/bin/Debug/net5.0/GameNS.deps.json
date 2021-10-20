@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GameNS/1.0.0": {
+        "dependencies": {
+          "BaseNS": "1.0.0",
+          "FilerNS": "1.0.0"
+        },
+        "runtime": {
+          "GameNS.dll": {}
+        }
+      },
+      "BaseNS/1.0.0": {
+        "runtime": {
+          "BaseNS.dll": {}
+        }
+      },
+      "FilerNS/1.0.0": {
+        "dependencies": {
+          "BaseNS": "1.0.0"
+        },
+        "runtime": {
+          "FilerNS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameNS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BaseNS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FilerNS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

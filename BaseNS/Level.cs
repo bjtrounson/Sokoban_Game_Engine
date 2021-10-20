@@ -1,11 +1,11 @@
 using System.Linq;
-using System.Xml.Serialization;
+using FilerNS;
 
 namespace BaseNS
 {
-    [XmlRoot]
     public class Level : ILevel
     {
+        public string FileName { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
         public ListLevelData LevelData { get; set; }
@@ -14,13 +14,23 @@ namespace BaseNS
         /// <summary>
         ///     Creates a new level with width, height and LevelData.
         /// </summary>
+        /// <param name="fileName">Level Name</param>
         /// <param name="width">Width of the Level. Starts at 0</param>
         /// <param name="height">Height of the Level. Starts at 0</param>
         /// <param name="levelData">
         ///     The level data contains a list of objects that are apart of the Level. e.g. Wall, Player and
         ///     Goal
         /// </param>
-        public Level(int width, int height, ListISquare levelData)
+        public void CreateLevel(string fileName, int width, int height, ListISquare levelData)
+        {
+            FileName = fileName; 
+            Width = width;
+            Height = height;
+            LevelData = LevelDataConvertor(levelData);
+            StartingLevelData = StartingLevelDataConvertor(levelData);
+        }
+        
+        public void CreateLevel(int width, int height, ListISquare levelData)
         {
             Width = width;
             Height = height;
@@ -33,7 +43,7 @@ namespace BaseNS
         /// </summary>
         /// <param name="width"></param>
         /// <param name="height"></param>
-        public Level(int width, int height)
+        public void CreateLevel(int width, int height)
         {
             Width = width;
             Height = height;
@@ -66,7 +76,7 @@ namespace BaseNS
         /// <param name="gridX"></param>
         /// <param name="gridY"></param>
         /// <returns>Returns a Part Enum</returns>
-        public Part GetPartAtPosition(int gridX, int gridY)
+        public Part GetPartAtIndex(int gridX, int gridY)
         {
             var squarePart = Part.Empty;
             foreach (var square in LevelData.Where(
@@ -155,6 +165,62 @@ namespace BaseNS
             var resultData = new ListStartingLevelData();
             resultData.AddRange(levelData);
             return resultData;
+        }
+
+        public int GetLevelWidth()
+        {
+            return Width;
+        }
+
+        public int GetLevelHeight()
+        {
+            return Height;
+        }
+
+        public void AddBlock(int gridX, int gridY)
+        {
+            LevelData.Add(new Block(new Position(gridX, gridY)));
+        }
+
+        public void AddPlayer(int gridX, int gridY)
+        {
+            LevelData.Add(new Player(new Position(gridX, gridY)));
+        }
+
+        public void AddWall(int gridX, int gridY)
+        {
+            LevelData.Add(new Wall(new Position(gridX, gridY)));
+        }
+
+        public void AddGoal(int gridX, int gridY)
+        {
+            LevelData.Add(new Goal(new Position(gridX, gridY)));
+        }
+
+        public void AddEmpty(int gridX, int gridY)
+        {
+            LevelData.Add(new Empty(new Position(gridX, gridY)));
+        }
+
+        public void AddBlockOnGoal(int gridX, int gridY)
+        {
+            LevelData.Add(new Block(new Position(gridX, gridY), new Goal(new Position(gridX, gridY), true)));
+        }
+
+        public void AddPlayerOnGoal(int gridX, int gridY)
+        {
+            LevelData.Add(new Player(new Position(gridX, gridY), new Goal(new Position(gridX, gridY), false)));
+        }
+
+        public void SaveMe()
+        {
+            var saver = new Saver(this);
+            saver.Save(FileName, new Fileable(this));
+        }
+
+        public bool CheckValid()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
